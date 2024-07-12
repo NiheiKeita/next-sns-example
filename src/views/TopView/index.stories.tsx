@@ -1,12 +1,12 @@
 import { expect } from '@storybook/jest'
 import { Meta, StoryObj } from '@storybook/react'
 import { userEvent, within } from '@storybook/testing-library'
-import { CountView } from '.'
+import { TopView } from '.'
 
 
-const meta: Meta<typeof CountView> = {
-  title: 'views/CountView',
-  component: CountView,
+const meta: Meta<typeof TopView> = {
+  title: 'views/TopView',
+  component: TopView,
   tags: ['autodocs'],
 }
 export default meta
