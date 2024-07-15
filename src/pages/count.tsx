@@ -1,4 +1,4 @@
-import { CountView } from "@/views/CountView"
+import { CountView } from "~/views/CountView"
 import React, { useEffect, useState } from "react"
 
 const CountPage = React.memo(() => {
