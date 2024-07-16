@@ -8,14 +8,13 @@ export const RegisterView = React.memo(function RegisterView() {
   const [username, setUsername] = useState('')
 
   const handleRegister = () => {
-    // 新規登録処理を追加
     console.log('Register with:', { email, password, username })
   }
 
   return (
     <div className="flex h-screen items-center justify-center">
       <div className="w-full max-w-xs">
-        <h2 className="mb-4 text-center text-2xl">Register</h2>
+        <h2 className="mb-4 text-center text-2xl">新規登録</h2>
         <input
           type="text"
           className="mb-2 w-full border p-2"
